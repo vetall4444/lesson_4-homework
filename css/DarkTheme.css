@@ -1,0 +1,39 @@
+/* ColdTheme = {
+  header_color: lightblue,
+  side_color: #00ddff,
+  side_border_color: #6495ed,
+}
+
+DarkTheme = {
+  header_color: darkgreen,
+  side_color: darkred,
+  side_border_color: darkblue,
+} */
+.header {
+  background-color: #006400;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.header__text {
+  margin: 0px;
+}
+.content {
+  display: flex;
+display
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  height: 600px;
+}
+.content__info {
+  text-align: center;
+  border: 5px solid #00008b;
+  width: 15%;
+  background-color: #8b0000;
+}
+.content__info_middle {
+  width: 70%;
+  background-color: #f5deb3;
+  margin-left: 20px;
+  margin-right: 20px;
+}
